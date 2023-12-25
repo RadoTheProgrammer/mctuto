@@ -1,0 +1,108 @@
+ <!DOCTYPE html>
+<hTmL lang=en>
+    <head>
+        <title>Minecraft Tuto (titre de la page)</title>
+        <link rel="icon"  type="img/mc.ico" href="img/mc.ico" >
+        <style> 
+        h1 {color: red;
+              background-color:blue;
+              font-family:verdana;
+              padding:30px}
+        h2 {color: green;
+              background-color:brown;
+              margin: 50px}
+        </style>
+        <script>
+            function myFunction(){document.getElementById("mc").innerHTML = "Minecraft script 2x3"}
+        </script>
+        <!-- Internal CSS: (<style>...</style>)-->
+
+        <link rel="stylesheet" href="css/style.css" <!-- or href="https://www.w3schools.com/html/styles.css" -->
+        <!-- External CSS: (<link rel="stylesheet" href="... .css")-->
+    </head>
+    <body style="background-color:powderblue;"> <!-- Inline CSS (style=...)-->
+
+        <a rel="mc logo gif" href="img/mc.gif"><img id="gif" src="img/mc.gif" alt="html logo" width="300" height="150"></a>
+        <button onclick="document.getElementById('gif').width=150">Raptissez le logo</button>
+        <p id="date"></p>
+        <button type="button" onclick="document.getElementById('date').innerHTML = Date()">Clique ici pour la date.</button>
+        <!-- <img src="img/mc.png" alt="html logo" style="width:150px;height:150px;">-->
+        <h1 style="font-size:60px;text-align:center;" title="Le Tuto de Minecraft par Rado"><img src="img/mc.png" alt="html logo" width="150" height="150" style="float:left"> Minecraft TutoMega centré </h1>
+        <h2 id="mc" style="font-size:300%">Minecraft 2x3</h2>
+        <button onclick="document.getElementById('mc').style.fontSize='100%'">Raptissez</button>
+        <button onclick="document.getElementById('mc').style.display='none'">Cachez</button>
+       <button onclick="document.getElementById('mc').style.display='block'">Montrez</button>
+        <script>
+        document.getElementById("mc").innerHTML = "Minecraft 2x3 (modifié)"
+        </script>
+        
+        <button type="button" onclick="myFunction()">Mc Script</button>
+        <h1>Minecraft 1</h1>
+        <h2>Minecraft 2</h2>
+        <h3>Minecraft 3</h3>
+        <h4>Minecraft 4</h4>
+        <h5>Minecraft 5</h5>
+        <h6>Minecraft 6</h6>
+        <!-- On peut commenter sur Minecraft et cacher du contenu: <p> Mon contenu </p> -->
+        <!--
+        <p>Ceci est un contenu que je ne voulais pas écrire</p>
+        -->
+        <hr>
+        <p id="paragraphe">Minecraft <!-- avec commentaires --> est un jeu vidéo. (Paragraphe)</p><button type="button" onclick='document.getElementById("paragraphe").innerHTML = "Minecraft est un jeu de blocs"'>Clique ici pour changer cette description</button>
+        <p>Minecraft se joue sur mobile <br> ordinateur ou ps4. (plusieurs lignes)</p>
+        <p>Trois mondes dans Minecraft</p>
+
+        <ol>
+        <li><span style="background-color:green;color:blue;border:2px solid brown;">L'overworld</span></li>
+        <li><span style="background-color:red;color:orange;border:2px solid purple;">Le nether</span></li>
+        <li><span style="background-color:black;color:purple;border:2px solid yellow;">L'ender</span></li>
+        </ol>
+        <p><acronym title="Minecraft">Mc</acronym> (abréviation)         se           joue
+        en         ligne      dans    plusieurs
+           espaces.</p>
+        <pre> 
+        Ou alors à
+        plusieurs lignes</pre>
+        <p>Il y a le <span style="font-family:verdana;">McVerdana</span> et le <span style="font-family:courier">McCourier</span></p>
+        <p>Minecraft référence:</p>
+        <a href="https://www.minecraft.net";target="_self">dans le même onglet</a><br>
+        <a href="https://www.minecraft.net";target="_blank">dans un nouvel onglet</a><br>
+        <a href="https://www.minecraft.net";target="_parent">pour les parents</a><br>
+        <a href="https://www.minecraft.net";target="_top">au top</a><br><br>
+        
+        <a href="img/mc.png">Logo de Minecraft</a><br>
+        <button onclick="img/mc.png">McLogo</button>
+        <a href="mailto:minecraft.games@mojang.com">Envoyez un e-mail</a>
+        <p>Voici les monstres dans l'Overworld:</p>
+        <ul>     
+           
+        <li>Le <b>Zombie</b> (gras)</li>
+        <li>Le <strong>Creeper</strong> (important)</li>
+        <li>Le <i>Squelette</i> (italique)</li>
+        <li>L'<em>Araignée</em> (en évidence)</li>
+        <li>L'<mark>Enderman</mark> (marqué)</li>
+        <li>La <small>Sorcière</small> (petite)</li>
+        <li>Le <del>Slime</del> (effacé)</li>
+        <li>Le <ins>Zombie noyé</ins> (inséré)</li>
+        <li>Le <sub>Poisson d'argent</sub> (inférieur)</li>
+        <li>Le <sup>Phantom</sup> (supérieur)</li>
+        </ul>
+        <p> Voici quelques citations sur Minecraft (un bloc de citation):</p>
+        <blockquote cite="https://www.jeuxvideo.com/forums/1-24777-2755974-1-0-1-0-vos-citations.htm">
+        Les creepers , c'est comme les capotes. Tu rêves de plus les avoir , mes tu en as besoin. :pf:<br>
+        On à plein de fer , lorsque qu'on commence à avoir des diamants.<br>
+        Y'a autant de charbon dans ma mine que de sable dans un biome désert ( :noel: )
+        </blockquote>
+        <p> Et une petite citation: <q> La vie est comme un cube.</q></p>
+        <p>Voici l'adresse (imaginaire) de Minecraft :</p>
+        <address>
+        Chemin du Nether<br>
+        25565 Overworld<br>
+        Le Pays de Minecraft<br>
+        Planète: Mojang's Planet<br>
+        Univers: Games Universe</address>
+        <p> Découvrez également <cite><bdo dir="rtl">Minecraft à l'Envers</bdo></cite> cité à l'envers</p>
+        <p><span style="background-color:rgb(255, 99, 71);">Dans Minecraft </span> <span style="background-color:#ff6347;" >il n'y a </span>  <span style="background-color:hsl(9, 100%, 64%);">pas de </span>  <span style="background-color:tomato;">tomates </span>
+        <span style="background-color:rgba(255, 99, 71, 0.5);">transpa</span><span style="background-color:hsla(9, 100%, 64%, 0.5);">rentes</span>
+    </body>
+</html> 
